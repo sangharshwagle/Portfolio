@@ -1,0 +1,12 @@
+
+.NavWrapper a {
+    text-decoration: none;
+    text-transform:uppercase;
+    color: black;
+    font-size: 15px;
+   
+}
+.NavWrapper li {
+    list-style-type: none;   
+}
+

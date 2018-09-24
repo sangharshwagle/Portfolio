@@ -1,0 +1,9 @@
+
+
+.NewsFeedBar {
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 30px;
+    transform: translate(12%,-270%);
+}
