@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import About from './Components/About Me/About';
 import Home from './Components/Home/Home';
 import NewsFeed from './Components/NewsFeed/NewsFeed';
+import Video from './Assests/Video/Video';
 
 
 
@@ -19,8 +20,8 @@ class App extends Component {
             <Route path = "/about" component = {About} exact></Route>
           </Switch>
           <NewsFeed  />
+          <Video />
         </div>
-
         </BrowserRouter>
     );
   }

@@ -17,8 +17,10 @@ const navBar = () =>{
                                  <FaHome size = "25px"
                                     /></NavLink></li></Column> 
                              <Column flexGrow = {1} horizontal = "end" > 
-                                <li style = {{transform: "translateX(-35px)",
-                                              fontFamily: "Notable"}}><NavLink to = "/about">DEV</NavLink></li></Column> 
+                                <li style = {{transform: "translateX(-30px)",
+                                              fontFamily: "Notable"}}>
+                                              <NavLink to = "/about">DEV</NavLink>
+                                              </li></Column> 
                           </Row>
                     </ul>  
                 </nav>
